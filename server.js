@@ -5,7 +5,7 @@ const app=express();
 app.use(express.static('dist/future'));
 
 app.get('/*',(req,res)=>{
-res.status(200).sendFile(path.join(__dirname+'/src/index.html'));
+res.status(200).sendFile(path.join(__dirname+'dist/from-future-ang/index.html'));
 });
 
 //LAst change
