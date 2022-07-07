@@ -1,11 +1,11 @@
 const express= require('express');
-const { path } = require('express/lib/application');
+const  path  = require('path');
 const app=express();
 
-app.use(express.static('dist/auto'));
+app.use(express.static('dist/future'));
 
 app.get('/*',(req,res)=>{
-res.status(200).sendFile(path.join(__dirname+'dist/fromfutureang/index.html'));
+res.status(200).sendFile(path.join(__dirname+'/src/index.html'));
 });
 
 //LAst change
