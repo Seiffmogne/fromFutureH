@@ -1,0 +1,14 @@
+/*Paramétre sur téléphone*/
+@media screen and (max-width:450px) {
+    .mon_image{
+      display: none;
+    }
+    
+}
+/*Paramétre sur Ordi*/
+@media screen and (min-width:450px) {
+    .imageTel{
+      display: none;
+    }
+    
+}

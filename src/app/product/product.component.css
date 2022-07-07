@@ -1,0 +1,17 @@
+.mon_product{
+    margin: 0 28px;
+}
+.titre{
+    font-weight: inherit;
+    max-width: 64%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+}
+@media screen and (max-width:450px) {
+    .mon_product{
+        margin: 0 4px;
+    }
+    
+}

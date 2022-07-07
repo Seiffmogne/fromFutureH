@@ -1,0 +1,38 @@
+.mon_header{
+    background-color: black;
+    height: 40px;
+}
+
+.mon_text{
+    color: white;
+    
+}
+.contain_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.mon_icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@media screen and (max-width:450px) {
+    .mon_text{
+        font-size: 14px;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 10px;
+         
+    }
+    
+}
